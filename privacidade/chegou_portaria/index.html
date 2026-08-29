@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Chegou Portaria</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#000000',
+                            light: '#FFFFFF',
+                            accent: '#00E5FF', 
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body {
+            background-color: #000000;
+            color: #FFFFFF;
+        }
+        .tech-border {
+            border: 1px solid rgba(0, 229, 255, 0.2);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-accent selection:text-black">
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 bg-black/90 backdrop-blur-md border-b tech-border">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center gap-3">
+                        <!-- Caminho atualizado para 2 níveis abaixo: ../../logo.png -->
+                        <img src="../../logo.png" alt="Duo Tech Logo" class="h-14 mix-blend-screen">
+                    </a>
+                </div>
+                <div>
+                    <a href="/" class="text-gray-400 hover:text-brand-accent transition-colors text-sm font-medium">&larr; Voltar para o Início</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Content Section -->
+    <main class="pt-32 pb-24 px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto bg-zinc-900/50 backdrop-blur border border-gray-800 rounded-3xl p-8 md:p-12 shadow-[0_0_30px_rgba(0,0,0,0.5)]">
+            
+            <h1 class="text-3xl md:text-4xl font-bold mb-8 text-white tracking-tight border-b border-gray-800 pb-6">
+                Política de Privacidade <br>
+                <span class="text-brand-accent text-2xl font-normal">Chegou Portaria</span>
+            </h1>
+
+            <div class="space-y-8 text-gray-300 leading-relaxed font-light">
+                <p>
+                    A <strong>DuoTechs</strong> construiu o aplicativo "Chegou Portaria" como um aplicativo comercial. Esta página é usada para informar os visitantes sobre nossas políticas relativas à coleta, uso e divulgação de Informações Pessoais.
+                </p>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-white mb-4">Coleta e Uso de Dados</h2>
+                    <p class="mb-4">
+                        O aplicativo funciona de maneira primariamente offline e local. No entanto, solicitamos algumas permissões no seu dispositivo para o funcionamento das seguintes funcionalidades:
+                    </p>
+                    <ul class="list-disc pl-5 space-y-4">
+                        <li>
+                            <strong class="text-brand-accent font-semibold">Câmera e Galeria:</strong> O aplicativo solicita acesso à câmera para fotografar as encomendas recebidas. As fotos são salvas apenas na memória interna do seu dispositivo e no backup pessoal.
+                        </li>
+                        <li>
+                            <strong class="text-brand-accent font-semibold">Contatos:</strong> O aplicativo solicita acesso aos contatos exclusivamente para facilitar o preenchimento da agenda de moradores (nome e telefone), não enviando esses dados para servidores de terceiros.
+                        </li>
+                        <li>
+                            <strong class="text-brand-accent font-semibold">Biometria:</strong> O aplicativo pode utilizar a autenticação biométrica (reconhecimento facial ou impressão digital) do dispositivo para segurança local. As informações biométricas são processadas pelo próprio sistema operacional do aparelho e nunca são coletadas por nós.
+                        </li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-white mb-4">Backup no Google Drive</h2>
+                    <p>
+                        Oferecemos a funcionalidade de salvar os dados e fotos do aplicativo no seu próprio Google Drive. O aplicativo utiliza o escopo de acesso restrito (apenas arquivos criados pelo próprio app). Nós, da DuoTechs, não temos acesso, não lemos e não compartilhamos os seus arquivos e backups armazenados na sua conta do Google.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="text-2xl font-semibold text-white mb-4">Serviços de Terceiros (Anúncios)</h2>
+                    <p>
+                        O aplicativo utiliza serviços de terceiros que podem coletar informações usadas para identificá-lo, especificamente o Google AdMob (para exibição de anúncios). Esses parceiros de publicidade podem coletar identificadores de publicidade do seu dispositivo.
+                    </p>
+                </section>
+
+                <section class="bg-black/50 p-6 rounded-2xl border border-gray-800 mt-10">
+                    <h2 class="text-2xl font-semibold text-white mb-2">Contato</h2>
+                    <p>
+                        Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite em nos contatar em: <br>
+                        <a href="mailto:contato@duotechs.com.br" class="text-brand-accent hover:underline font-semibold mt-2 inline-block">contato@duotechs.com.br</a>
+                    </p>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-black py-12 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div class="mb-4 md:mb-0 flex items-center gap-3">
+                    <img src="../../logo.png" alt="Duo Tech Logo" class="h-10 mix-blend-screen grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all">
+                </div>
+                <div class="flex space-x-6">
+                    <a href="https://www.linkedin.com/company/duotechs" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-brand-accent text-xl transition-colors"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/duotech_" target="_blank" rel="noopener noreferrer" class="text-gray-500 hover:text-brand-accent text-xl transition-colors"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="text-center md:text-left text-gray-600 text-sm border-t border-gray-900 pt-8 flex flex-col md:flex-row justify-between">
+                <p>&copy; 2026 Duo Tech Soluções. Todos os direitos reservados.</p>
+                <p class="mt-2 md:mt-0">contato@duotechs.com.br</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
